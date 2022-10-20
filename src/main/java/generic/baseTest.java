@@ -43,12 +43,14 @@ public class baseTest {
 	@Parameters("Browser")
 	@BeforeMethod
 	public void lauchBrowser(String bn) {
+
 		if(bn.equals("chrome"))
 			driver=new ChromeDriver();
 		else if(bn.equals("firefox"))
 			driver=new FirefoxDriver();
 		
 		driver.manage().window().maximize();
+	
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get(prop.getProperty("url"));
 		actionUtil=new webActionUtil(driver);

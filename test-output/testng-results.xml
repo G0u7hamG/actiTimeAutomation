@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="61864" started-at="2022-10-02T13:39:54 IST" finished-at="2022-10-02T13:40:56 IST">
+  <suite name="Suite" duration-ms="38804" started-at="2022-10-17T10:39:36 IST" finished-at="2022-10-17T10:40:15 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="61864" started-at="2022-10-02T13:39:54 IST" finished-at="2022-10-02T13:40:56 IST">
+    <test name="Test" duration-ms="38804" started-at="2022-10-17T10:39:36 IST" finished-at="2022-10-17T10:40:15 IST">
       <class name="scripts.actiLoginScript">
-        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.actiLoginScript@df27fae]" name="setPath" is-config="true" duration-ms="18" started-at="2022-10-02T13:39:54 IST" finished-at="2022-10-02T13:39:54 IST">
+        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="setPath" is-config="true" duration-ms="23" started-at="2022-10-17T10:39:36 IST" finished-at="2022-10-17T10:39:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPath -->
-        <test-method status="PASS" signature="lauchBrowser(java.lang.String)[pri:0, instance:scripts.actiLoginScript@df27fae]" name="lauchBrowser" is-config="true" duration-ms="10916" started-at="2022-10-02T13:39:54 IST" finished-at="2022-10-02T13:40:05 IST">
+        <test-method status="PASS" signature="lauchBrowser(java.lang.String)[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="lauchBrowser" is-config="true" duration-ms="12883" started-at="2022-10-17T10:39:36 IST" finished-at="2022-10-17T10:39:49 IST">
           <params>
             <param index="0">
               <value>
@@ -22,66 +22,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method status="FAIL" signature="actiLoginscript()[pri:0, instance:scripts.actiLoginScript@df27fae]" name="actiLoginscript" duration-ms="30822" started-at="2022-10-02T13:40:05 IST" finished-at="2022-10-02T13:40:36 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at generic.webActionUtil.validateTitle(webActionUtil.java:47)
-at scripts.actiLoginScript.actiLoginscript(actiLoginScript.java:15)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="actiLoginscript()[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="actiLoginscript" duration-ms="3940" started-at="2022-10-17T10:39:49 IST" finished-at="2022-10-17T10:39:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actiLoginscript -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.actiLoginScript@df27fae]" name="closeBrowser" is-config="true" duration-ms="718" started-at="2022-10-02T13:40:36 IST" finished-at="2022-10-02T13:40:36 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="closeBrowser" is-config="true" duration-ms="788" started-at="2022-10-17T10:39:53 IST" finished-at="2022-10-17T10:39:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killDriver()[pri:0, instance:scripts.actiLoginScript@df27fae]" name="killDriver" is-config="true" duration-ms="11" started-at="2022-10-02T13:40:56 IST" finished-at="2022-10-02T13:40:56 IST">
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="killDriver" is-config="true" duration-ms="40" started-at="2022-10-17T10:40:15 IST" finished-at="2022-10-17T10:40:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killDriver -->
       </class> <!-- scripts.actiLoginScript -->
       <class name="scripts.addUserScript">
-        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.addUserScript@5c18298f]" name="setPath" is-config="true" duration-ms="1" started-at="2022-10-02T13:40:36 IST" finished-at="2022-10-02T13:40:36 IST">
+        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.addUserScript@10dba097]" name="setPath" is-config="true" duration-ms="0" started-at="2022-10-17T10:39:54 IST" finished-at="2022-10-17T10:39:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPath -->
-        <test-method status="PASS" signature="lauchBrowser(java.lang.String)[pri:0, instance:scripts.addUserScript@5c18298f]" name="lauchBrowser" is-config="true" duration-ms="7300" started-at="2022-10-02T13:40:38 IST" finished-at="2022-10-02T13:40:45 IST">
+        <test-method status="PASS" signature="lauchBrowser(java.lang.String)[pri:0, instance:scripts.addUserScript@10dba097]" name="lauchBrowser" is-config="true" duration-ms="8753" started-at="2022-10-17T10:39:55 IST" finished-at="2022-10-17T10:40:04 IST">
           <params>
             <param index="0">
               <value>
@@ -92,7 +51,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method status="PASS" signature="addUsercript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.addUserScript@5c18298f]" name="addUsercript" duration-ms="9912" started-at="2022-10-02T13:40:45 IST" data-provider="addUserdata" finished-at="2022-10-02T13:40:55 IST">
+        <test-method status="PASS" signature="addUsercript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.addUserScript@10dba097]" name="addUsercript" duration-ms="10236" started-at="2022-10-17T10:40:04 IST" data-provider="addUserdata" finished-at="2022-10-17T10:40:14 IST">
           <params>
             <param index="0">
               <value>
@@ -123,7 +82,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addUsercript -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.addUserScript@5c18298f]" name="closeBrowser" is-config="true" duration-ms="749" started-at="2022-10-02T13:40:55 IST" finished-at="2022-10-02T13:40:56 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.addUserScript@10dba097]" name="closeBrowser" is-config="true" duration-ms="786" started-at="2022-10-17T10:40:14 IST" finished-at="2022-10-17T10:40:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
