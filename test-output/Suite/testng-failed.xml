@@ -16,6 +16,15 @@
           <include name="setPath"/>
         </methods>
       </class> <!-- scripts.actiLoginScript -->
+      <class name="scripts.addUserScript">
+        <methods>
+          <include name="addUsercript"/>
+          <include name="killDriver"/>
+          <include name="lauchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="setPath"/>
+        </methods>
+      </class> <!-- scripts.addUserScript -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

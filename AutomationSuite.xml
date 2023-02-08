@@ -7,8 +7,8 @@
 	<test thread-count="5" name="Test">
 		<parameter name="Browser" value="chrome"></parameter>
 		<classes>
-			<class name="scripts.actiLoginScript" />
-			<class name="scripts.addUserScript" />
+			<class name="scripts.actiLoginScript_TC1" />
+			<class name="scripts.addUserScript_TC2" />
 
 		</classes>
 	</test> <!-- Test -->

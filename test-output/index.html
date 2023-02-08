@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.actiLoginScript" hash-for-method="actiLoginscript">actiLoginscript</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.actiLoginScript_TC1" hash-for-method="actiLoginscript">actiLoginscript</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.addUserScript" hash-for-method="addUsercript(admin, manager, abhishek, pateel, pateel@gmail.com)">addUsercript(admin, manager, abhishek, pateel, pateel@gmail.com)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.addUserScript_TC2" hash-for-method="addUsercript(admin, manager, abhishek, pateel, pateel@gmail.com)">addUsercript(admin, manager, abhishek, pateel, pateel@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,7 +127,22 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">scripts.addUserScript</span>
+              <span class="class-name">scripts.actiLoginScript_TC1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="actiLoginscript">
+                  </a> <!-- actiLoginscript -->
+                  <span class="method-name">actiLoginscript</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.addUserScript_TC2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -136,21 +151,6 @@
                   </a> <!-- addUsercript(admin, manager, abhishek, pateel, pateel@gmail.com) -->
                   <span class="method-name">addUsercript</span>
                   <span class="parameters">(admin, manager, abhishek, pateel, pateel@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">scripts.actiLoginScript</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="actiLoginscript">
-                  </a> <!-- actiLoginscript -->
-                  <span class="method-name">actiLoginscript</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -171,8 +171,8 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;scripts.actiLoginScript&quot;/&gt;
-      &lt;class name=&quot;scripts.addUserScript&quot;/&gt;
+      &lt;class name=&quot;scripts.actiLoginScript_TC1&quot;/&gt;
+      &lt;class name=&quot;scripts.addUserScript_TC2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -215,12 +215,12 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addUsercript')
-data.setCell(0, 2, 'scripts.addUserScript')
-data.setCell(0, 3, 10236);
+data.setCell(0, 2, 'scripts.addUserScript_TC2')
+data.setCell(0, 3, 10687);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'actiLoginscript')
-data.setCell(1, 2, 'scripts.actiLoginScript')
-data.setCell(1, 3, 3940);
+data.setCell(1, 2, 'scripts.actiLoginScript_TC1')
+data.setCell(1, 3, 3903);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -244,7 +244,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">scripts.addUserScript</span>
+              <span class="ignored-class-name">scripts.addUserScript_TC2</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">killDriver</span>
                 <br/>
@@ -258,48 +258,48 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">scripts.actiLoginScript</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">scripts.actiLoginScript_TC1</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setPath</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">lauchBrowser(chrome)</span>
-                <span class="method-start">33 ms</span>
+                <span class="method-start">36 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">actiLoginscript</span>
-                <span class="method-start">12917 ms</span>
+                <span class="method-start">14227 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">16863 ms</span>
+                <span class="method-start">18134 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">scripts.addUserScript</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">scripts.addUserScript_TC2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setPath</span>
-                <span class="method-start">17654 ms</span>
+                <span class="method-start">18898 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">lauchBrowser(chrome)</span>
-                <span class="method-start">19000 ms</span>
+                <span class="method-start">20780 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addUsercript(admin, manager, abhishek, pateel, pateel@gmail.com)</span>
-                <span class="method-start">27753 ms</span>
+                <span class="method-start">28068 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">37992 ms</span>
+                <span class="method-start">38758 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">scripts.actiLoginScript</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">scripts.actiLoginScript_TC1</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">killDriver</span>
-                <span class="method-start">38857 ms</span>
+                <span class="method-start">39548 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

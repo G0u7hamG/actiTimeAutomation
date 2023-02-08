@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -23,6 +24,7 @@ public class baseTest {
 	public WebDriver driver;
 	public static Properties prop;
 	public static webActionUtil actionUtil;
+	public static Logger logger;
 	
 	/*sets the path for the drivers*/
 	@BeforeClass
@@ -37,12 +39,14 @@ public class baseTest {
 		}
 		System.setProperty(chromeKey, chromeValue);
 		System.setProperty(geckoKey, geckoValue);
+		
+		
 	}
 	
 	/*launches the browser, defines the explicit wait and fetches the actitime application*/
 	@Parameters("Browser")
 	@BeforeMethod
-	public void lauchBrowser(String bn) {
+	public void launchBrowser(String bn) {
 
 		if(bn.equals("chrome"))
 			driver=new ChromeDriver();
@@ -54,6 +58,9 @@ public class baseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get(prop.getProperty("url"));
 		actionUtil=new webActionUtil(driver);
+		
+		//logger = Logger.getLogger("actitime");
+		//PropertyConfigurator.configure("log4j.properties");
 	}
 	
 	/*closes the browser*/

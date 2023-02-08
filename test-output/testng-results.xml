@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38804" started-at="2022-10-17T10:39:36 IST" finished-at="2022-10-17T10:40:15 IST">
+  <suite name="Suite" duration-ms="39504" started-at="2022-11-02T12:38:46 IST" finished-at="2022-11-02T12:39:25 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="38804" started-at="2022-10-17T10:39:36 IST" finished-at="2022-10-17T10:40:15 IST">
-      <class name="scripts.actiLoginScript">
-        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="setPath" is-config="true" duration-ms="23" started-at="2022-10-17T10:39:36 IST" finished-at="2022-10-17T10:39:36 IST">
+    <test name="Test" duration-ms="39504" started-at="2022-11-02T12:38:46 IST" finished-at="2022-11-02T12:39:25 IST">
+      <class name="scripts.actiLoginScript_TC1">
+        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.actiLoginScript_TC1@150c158]" name="setPath" is-config="true" duration-ms="23" started-at="2022-11-02T12:38:46 IST" finished-at="2022-11-02T12:38:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPath -->
-        <test-method status="PASS" signature="lauchBrowser(java.lang.String)[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="lauchBrowser" is-config="true" duration-ms="12883" started-at="2022-10-17T10:39:36 IST" finished-at="2022-10-17T10:39:49 IST">
+        <test-method status="PASS" signature="lauchBrowser(java.lang.String)[pri:0, instance:scripts.actiLoginScript_TC1@150c158]" name="lauchBrowser" is-config="true" duration-ms="14191" started-at="2022-11-02T12:38:46 IST" finished-at="2022-11-02T12:39:00 IST">
           <params>
             <param index="0">
               <value>
@@ -22,25 +22,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method status="PASS" signature="actiLoginscript()[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="actiLoginscript" duration-ms="3940" started-at="2022-10-17T10:39:49 IST" finished-at="2022-10-17T10:39:53 IST">
+        <test-method status="PASS" signature="actiLoginscript()[pri:0, instance:scripts.actiLoginScript_TC1@150c158]" name="actiLoginscript" duration-ms="3903" started-at="2022-11-02T12:39:00 IST" finished-at="2022-11-02T12:39:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actiLoginscript -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="closeBrowser" is-config="true" duration-ms="788" started-at="2022-10-17T10:39:53 IST" finished-at="2022-10-17T10:39:54 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.actiLoginScript_TC1@150c158]" name="closeBrowser" is-config="true" duration-ms="759" started-at="2022-11-02T12:39:04 IST" finished-at="2022-11-02T12:39:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killDriver()[pri:0, instance:scripts.actiLoginScript@6ec8211c]" name="killDriver" is-config="true" duration-ms="40" started-at="2022-10-17T10:40:15 IST" finished-at="2022-10-17T10:40:15 IST">
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:scripts.actiLoginScript_TC1@150c158]" name="killDriver" is-config="true" duration-ms="20" started-at="2022-11-02T12:39:25 IST" finished-at="2022-11-02T12:39:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killDriver -->
-      </class> <!-- scripts.actiLoginScript -->
-      <class name="scripts.addUserScript">
-        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.addUserScript@10dba097]" name="setPath" is-config="true" duration-ms="0" started-at="2022-10-17T10:39:54 IST" finished-at="2022-10-17T10:39:54 IST">
+      </class> <!-- scripts.actiLoginScript_TC1 -->
+      <class name="scripts.addUserScript_TC2">
+        <test-method status="PASS" signature="setPath()[pri:0, instance:scripts.addUserScript_TC2@eb21112]" name="setPath" is-config="true" duration-ms="1" started-at="2022-11-02T12:39:04 IST" finished-at="2022-11-02T12:39:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPath -->
-        <test-method status="PASS" signature="lauchBrowser(java.lang.String)[pri:0, instance:scripts.addUserScript@10dba097]" name="lauchBrowser" is-config="true" duration-ms="8753" started-at="2022-10-17T10:39:55 IST" finished-at="2022-10-17T10:40:04 IST">
+        <test-method status="PASS" signature="lauchBrowser(java.lang.String)[pri:0, instance:scripts.addUserScript_TC2@eb21112]" name="lauchBrowser" is-config="true" duration-ms="7288" started-at="2022-11-02T12:39:06 IST" finished-at="2022-11-02T12:39:14 IST">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method status="PASS" signature="addUsercript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.addUserScript@10dba097]" name="addUsercript" duration-ms="10236" started-at="2022-10-17T10:40:04 IST" data-provider="addUserdata" finished-at="2022-10-17T10:40:14 IST">
+        <test-method status="PASS" signature="addUsercript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.addUserScript_TC2@eb21112]" name="addUsercript" duration-ms="10687" started-at="2022-11-02T12:39:14 IST" data-provider="addUserdata" finished-at="2022-11-02T12:39:24 IST">
           <params>
             <param index="0">
               <value>
@@ -82,11 +82,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addUsercript -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.addUserScript@10dba097]" name="closeBrowser" is-config="true" duration-ms="786" started-at="2022-10-17T10:40:14 IST" finished-at="2022-10-17T10:40:15 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.addUserScript_TC2@eb21112]" name="closeBrowser" is-config="true" duration-ms="718" started-at="2022-11-02T12:39:24 IST" finished-at="2022-11-02T12:39:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- scripts.addUserScript -->
+      </class> <!-- scripts.addUserScript_TC2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
